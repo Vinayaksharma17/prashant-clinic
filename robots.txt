@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Disallow admin/config files
+Disallow: /config.js
+Disallow: /.htaccess
+Disallow: /.git/
+
+# Allow search engines to crawl all important pages
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
