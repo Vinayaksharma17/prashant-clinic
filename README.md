@@ -30,6 +30,7 @@ python3 -m http.server 8000
 ### 3. Deploy
 
 **Easy deployment options:**
+
 - **Netlify**: Drag & drop folder → Done! ✅
 - **Vercel**: Import project → Done! ✅
 - **GitHub Pages**: Push to GitHub → Enable Pages ✅
@@ -67,13 +68,14 @@ prashant-clinic-final/
 ✅ **Google Maps** - Embedded location  
 ✅ **Mobile Menu** - Touch-friendly navigation  
 ✅ **Smooth Animations** - Scroll-triggered reveals  
-✅ **PWA Ready** - Can be installed on mobile  
+✅ **PWA Ready** - Can be installed on mobile
 
 ---
 
 ## 📸 ImageKit.io Integration
 
 This website uses ImageKit.io for:
+
 - 🚀 **60-80% smaller images** - Automatic compression
 - 🌍 **CDN delivery** - Fast loading worldwide
 - 📱 **Responsive images** - Right size for each device
@@ -81,6 +83,7 @@ This website uses ImageKit.io for:
 - 💰 **Free tier** - 20GB bandwidth/month
 
 **Files using ImageKit:**
+
 - Logo images (navbar, favicon)
 - Doctor photo
 - Gallery images (6 photos)
@@ -180,6 +183,7 @@ Before deployment, update these:
 ## 🚀 Deployment Options
 
 ### Netlify (Recommended - FREE)
+
 ```bash
 # 1. Visit netlify.com
 # 2. Drag & drop project folder
@@ -187,6 +191,7 @@ Before deployment, update these:
 ```
 
 ### Vercel (FREE)
+
 ```bash
 # 1. Visit vercel.com
 # 2. Import project
@@ -194,6 +199,7 @@ Before deployment, update these:
 ```
 
 ### GitHub Pages (FREE)
+
 ```bash
 git init
 git add .
@@ -205,6 +211,7 @@ git push -u origin main
 ```
 
 ### Traditional Hosting
+
 - Upload via FTP/cPanel
 - Ensure .htaccess is uploaded
 - Enable SSL certificate
@@ -229,15 +236,18 @@ See [PRODUCTION_CHECKLIST.md](PRODUCTION_CHECKLIST.md) for complete checklist.
 ## 🐛 Troubleshooting
 
 **Images not loading?**
+
 - Check ImageKit ID is correct
 - Verify images uploaded to ImageKit
 - Clear browser cache
 
 **WhatsApp not working?**
+
 - Test on mobile device
 - Check phone number format: 918310091561
 
 **Website not loading?**
+
 - Check hosting is active
 - Verify DNS settings
 - Check browser console for errors
@@ -247,6 +257,7 @@ See [PRODUCTION_CHECKLIST.md](PRODUCTION_CHECKLIST.md) for complete checklist.
 ## 📞 Support
 
 For deployment help, see documentation files or contact:
+
 - **Technical Support**: Check hosting provider docs
 - **ImageKit Support**: support@imagekit.io
 - **Website Design**: Neuronix Technologies, Vijayapur
@@ -279,6 +290,7 @@ This website is proprietary and belongs to Prashant Clinic, Vijayapur.
 ## 🚀 Ready to Deploy!
 
 Follow the guides in this order:
+
 1. Read [IMAGEKIT_SETUP.md](IMAGEKIT_SETUP.md)
 2. Run `./replace-imagekit-id.sh YOUR_ID`
 3. Follow [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
