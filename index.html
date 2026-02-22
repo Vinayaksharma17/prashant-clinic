@@ -1,381 +1,575 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prashant Clinic | Surgical & Laparoscopic Care</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prashant Clinic | Surgical & Laparoscopic Care</title>
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Prashant Clinic in Vijayapur offers expert Laparoscopic, General & Trauma Surgery care. Book appointment with Dr. Prashant Yadahalli, DNB General Surgery.">
-  <meta name="keywords" content="laparoscopic surgery, general surgery, trauma care, Vijayapur clinic, Dr Prashant Yadahalli, surgical hospital vijayapur">
-  <meta name="author" content="Prashant Clinic">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Prashant Clinic | Surgical & Laparoscopic Care">
-  <meta property="og:description" content="Expert surgical care in Vijayapur. OPD consultation available for general surgical problems.">
-  <meta property="og:image" content="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/logo_square_256.png">
-  <meta property="og:url" content="https://yourwebsite.com">
-  <meta property="og:type" content="website">
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-40,h-40/logo_navbar_40.png">
-  <link rel="apple-touch-icon" href="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-256,h-256/logo_square_256.png">
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Prashant Clinic in Vijayapur offers expert Laparoscopic, General & Trauma Surgery care. Book appointment with Dr. Prashant Yadahalli, DNB General Surgery."
+    />
+    <meta
+      name="keywords"
+      content="laparoscopic surgery, general surgery, trauma care, Vijayapur clinic, Dr Prashant Yadahalli, surgical hospital vijayapur"
+    />
+    <meta name="author" content="Prashant Clinic" />
+    <meta name="robots" content="index, follow" />
 
-  <!-- Performance optimization -->
-  <link rel="preconnect" href="https://ik.imagekit.io">
-  <link rel="dns-prefetch" href="https://ik.imagekit.io">
-  <link rel="preload" as="image" href="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-50,h-50/logo_navbar_50.png">
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Prashant Clinic | Surgical & Laparoscopic Care"
+    />
+    <meta
+      property="og:description"
+      content="Expert surgical care in Vijayapur. OPD consultation available for general surgical problems."
+    />
+    <meta
+      property="og:image"
+      content="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/logo_square_256.png"
+    />
+    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:type" content="website" />
 
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-40,h-40/logo_navbar_40.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-256,h-256/logo_square_256.png"
+    />
 
-  <link rel="stylesheet" href="style.css" />
+    <!-- Performance optimization -->
+    <link rel="preconnect" href="https://ik.imagekit.io" />
+    <link rel="dns-prefetch" href="https://ik.imagekit.io" />
+    <link
+      rel="preload"
+      as="image"
+      href="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-50,h-50/logo_navbar_50.png"
+    />
 
-  <!-- Theme Color -->
-  <meta name="theme-color" content="#0b3b5e">
-  
-</head>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Navbar -->
-  <header class="navbar" id="top">
-    <div class="nav-left">
-      <!-- <div class="logo-circle">P</div> -->
-       <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-50,h-50/logo_navbar_50.png" alt="Prashant Clinic Logo" class="logo-img" width="50" height="50">
-      <div class="logo-text">
-        <h3>PRASHANT CLINIC</h3>
-        <p>First Stop for your Surgical Problems</p>
-        <!-- <img src="images/logo_navbar_80.png" alt="Prashant Clinic Logo" style="height: 60px;"> -->
-      </div>
-    </div>
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0b3b5e" />
+  </head>
 
-    <nav>
-      <button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle navigation menu">☰</button>
-      <ul id="navLinks">
-        <li><a href="#home" onclick="closeMenu()">Home</a></li>
-        <li><a href="#about" onclick="closeMenu()">Doctor</a></li>
-        <li><a href="#services" onclick="closeMenu()">Services</a></li>
-        <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
-        <li><a href="#appointment" onclick="closeMenu()">Appointment</a></li>
-        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero" id="home">
-    <div class="hero-bg"></div>
-
-    <div class="hero-content">
-      <div class="hero-badge fade-up">
-        Trusted Laparoscopic, General & Trauma Surgery Care
-      </div>
-
-      <h1 class="fade-up delay-1">
-        Consult - Discuss - Decide <br><span style="font-size: 30px;">Your Surgical Journey Starts Here</span>
-      </h1>
-
-      <p class="fade-up delay-2">
-        OPD service for common general surgical problems, second opinion, health information, day dare services and many more.</p>
-
-      <div class="hero-buttons fade-up delay-3">
-        <a class="btn primary" href="#appointment">Book Appointment</a>
-        <a class="btn outline" href="tel:8310091561">Call: 8310091561</a>
-      </div>
-
-      <div class="hero-stats fade-up delay-4">
-        <div class="stat">
-          <h3>24/7</h3>
-          <p>In patient consultation support</p>
-        </div>
-        <div class="stat">
-          <h3>OPD</h3>
-          <p>Consultation Available</p>
-        </div>
-        <div class="stat">
-          <h3>Safe</h3>
-          <p>Advanced Procedures</p>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar" id="top">
+      <div class="nav-left">
+        <!-- <div class="logo-circle">P</div> -->
+        <img
+          src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-50,h-50/logo_navbar_50.png"
+          alt="Prashant Clinic Logo"
+          class="logo-img"
+          width="50"
+          height="50"
+        />
+        <div class="logo-text">
+          <h3>PRASHANT CLINIC</h3>
+          <p>First Stop for your Surgical Problems</p>
+          <!-- <img src="images/logo_navbar_80.png" alt="Prashant Clinic Logo" style="height: 60px;"> -->
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Doctor -->
-  <section class="section" id="about">
-    <div class="section-title">
-      <h2 class="reveal">Doctor Profile</h2>
-      <p class="reveal delay-1">Meet our consultant surgeon</p>
-    </div>
+      <nav>
+        <button
+          class="menu-btn"
+          onclick="toggleMenu()"
+          aria-label="Toggle navigation menu"
+        >
+          ☰
+        </button>
+        <ul id="navLinks">
+          <li><a href="#home" onclick="closeMenu()">Home</a></li>
+          <li><a href="#about" onclick="closeMenu()">Doctor</a></li>
+          <li><a href="#services" onclick="closeMenu()">Services</a></li>
+          <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+          <li><a href="#appointment" onclick="closeMenu()">Appointment</a></li>
+          <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div class="doctor-card reveal">
-      <div class="doctor-img">
-        <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-280,h-300,fo-auto/doctor.jpeg" alt="Dr. Prashant Yadahalli" width="280" height="300" loading="lazy">
-      </div>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
 
-      <div class="doctor-info">
-        <h3>Dr. Prashant Yadahalli</h3>
-        <p class="doctor-sub">
-          MBBS, DNB (General Surgery), FMAS, FIAGES <br>
-          Consultant Laparoscopic, General & Trauma Surgeon
+      <div class="hero-content">
+        <div class="hero-badge fade-up">
+          Trusted Laparoscopic, General & Trauma Surgery Care
+        </div>
+
+        <h1 class="fade-up delay-1">
+          Consult - Discuss - Decide <br /><span style="font-size: 30px"
+            >Your Surgical Journey Starts Here</span
+          >
+        </h1>
+
+        <p class="fade-up delay-2">
+          OPD service for common general surgical problems, second opinion,
+          health information, day dare services and many more.
         </p>
 
-        <div class="doctor-tags">
-          <span>Laparoscopic Surgeries</span>
-          <span> General Surgery</span>
-          <span>Trauma Care</span>
+        <div class="hero-buttons fade-up delay-3">
+          <a class="btn primary" href="#appointment">Book Appointment</a>
+          <a class="btn outline" href="tel:8310091561">Call: 8310091561</a>
         </div>
 
-        <ul class="doctor-list">
-          <li>MBBS (RGUHS, AMC Vijayapur)</li>
-          <li>DNB General Surgery (St Philomenas Hospital, Bangalore)</li>
-          <li>Former Assistant Professor & Consultant Surgeon (2020–2025) in SDM College Dharwad</li>
-        </ul>
-        <p class="doctor-sub" style="text-align:justify">
-              <b>Dr. Prashant Yadahalli</b> is a native of Vijayapur. After completing his post-graduation (DNB) from St. Philomena’s Hospital, Bengaluru, he went on to work at SDM Medical College and Hospital for five years.
-              He has extensive experience in general surgery, having performed numerous procedures including inguinal and incisional hernia repairs, surgeries for piles and fistula, complicated laparoscopic appendicectomies, and gallbladder surgeries. In addition, he has successfully completed over <b>500 endoscopic</b> procedures, including upper GI endoscopy, colonoscopy, and variceal banding.
-              In <b>October 2025</b>, Dr. Yadahalli returned to Vijayapur with the intent of serving the local community. <b>We are eagerly waiting to serve you with dedication, care, and expertise</b>
-       </p>
+        <div class="hero-stats fade-up delay-4">
+          <div class="stat">
+            <h3>24/7</h3>
+            <p>In patient consultation support</p>
+          </div>
+          <div class="stat">
+            <h3>OPD</h3>
+            <p>Consultation Available</p>
+          </div>
+          <div class="stat">
+            <h3>Safe</h3>
+            <p>Advanced Procedures</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Services -->
-<section class="section alt services-section" id="services">
-    <div class="section-title">
-      <h2 class="reveal">Services Available</h2>
-      <p class="reveal delay-1">OPD Consultation Available for following diseases</p>
-    </div>
+    <!-- Doctor -->
+    <section class="section" id="about">
+      <div class="section-title">
+        <h2 class="reveal">Doctor Profile</h2>
+        <p class="reveal delay-1">Meet our consultant surgeon</p>
+      </div>
 
-    <div class="services-grid">
-      <div class="service reveal delay-2"><h4>Pain Abdominal(Stomach Pain)</h4></div>
-      <div class="service reveal"><h4>Gallbladder Surgery</h4><p>Laparoscopic Cholecystectomy</p></div>
-      <div class="service reveal delay-1"><h4>Appendix Surgery</h4><p>Laparoscopic Appendicectomy</p></div>
-      <div class="service reveal delay-2"><h4>Hernia Repair</h4><p>Inguinal / Umbilical / Ventral / Incisional</p></div>
+      <div class="doctor-card reveal">
+        <div class="doctor-img">
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-280,h-300,fo-auto/doctor.jpeg"
+            alt="Dr. Prashant Yadahalli"
+            width="280"
+            height="300"
+            loading="lazy"
+          />
+        </div>
 
-      <div class="service reveal"><h4>Upper GI / Colonoscopy</h4><p>Endoscopic evaluation and diagnosis</p></div>
-      <div class="service reveal delay-1"><h4>Thyroid Swelling</h4><p>Thyroid evaluation and surgery</p></div>
-      <div class="service reveal delay-2"><h4>Breast Lump</h4><p>Evaluation and surgical management</p></div>
+        <div class="doctor-info">
+          <h3>Dr. Prashant Yadahalli</h3>
+          <p class="doctor-sub">
+            MBBS, DNB (General Surgery), FMAS, FIAGES <br />
+            Consultant Laparoscopic, General & Trauma Surgeon
+          </p>
 
-      <div class="service reveal"><h4>Fistula / Fissure</h4><p>Hemorrhoids/Proctology treatment</p></div>
-      <div class="service reveal delay-1"><h4>Varicose Veins</h4><p>Vein care, cellulitis, infections</p></div>
-      <div class="service reveal delay-2"><h4>Trauma Care</h4><p>ICD insertion, Laparotomy, Splenectomy</p></div>
+          <div class="doctor-tags">
+            <span>Laparoscopic Surgeries</span>
+            <span> General Surgery</span>
+            <span>Trauma Care</span>
+          </div>
 
-      <div class="service reveal"><h4>Day Care Surgeries</h4><p>Lipoma, Sebaceous cyst, Suturing, Dressing</p></div>
-      <div class="service reveal delay-1"><h4>Diagnostic Surgery</h4><p>Laparoscopy, biopsy procedures</p></div>
-      <div class="service reveal delay-2"><h4>Other Procedures</h4><p>All general surgical treatments</p></div>
-      <div class="service reveal delay-2"><h4>Dressing</h4></div>
-</div>
-  </section>
+          <ul class="doctor-list">
+            <li>MBBS (RGUHS, AMC Vijayapur)</li>
+            <li>DNB General Surgery (St Philomenas Hospital, Bangalore)</li>
+            <li>
+              Former Assistant Professor & Consultant Surgeon (2020–2025) in SDM
+              College Dharwad
+            </li>
+          </ul>
+          <p class="doctor-sub" style="text-align: justify">
+            <b>Dr. Prashant Yadahalli</b> is a native of Vijayapur. After
+            completing his post-graduation (DNB) from St. Philomena’s Hospital,
+            Bengaluru, he went on to work at SDM Medical College and Hospital
+            for five years. He has extensive experience in general surgery,
+            having performed numerous procedures including inguinal and
+            incisional hernia repairs, surgeries for piles and fistula,
+            complicated laparoscopic appendicectomies, and gallbladder
+            surgeries. In addition, he has successfully completed over
+            <b>500 endoscopic</b> procedures, including upper GI endoscopy,
+            colonoscopy, and variceal banding. In <b>October 2025</b>, Dr.
+            Yadahalli returned to Vijayapur with the intent of serving the local
+            community.
+            <b
+              >We are eagerly waiting to serve you with dedication, care, and
+              expertise</b
+            >
+          </p>
+        </div>
+      </div>
+    </section>
 
-  
-<section class="section gallery-section" id="gallery">
-  <div class="section-title">
-    <h2 class="reveal">Gallery</h2>
-  <p class="reveal delay-1">Explore Our Surgical Equipment & Facilities</p>
-  </div>
+    <!-- Services -->
+    <section class="section alt services-section" id="services">
+      <div class="section-title">
+        <h2 class="reveal">Services Available</h2>
+        <p class="reveal delay-1">
+          OPD Consultation Available for following diseases
+        </p>
+      </div>
 
-  <div class="gallery-grid">
-    <!-- <div class="gallery-item reveal" onclick="openLightbox('images/g1.jpg')">
+      <div class="services-grid">
+        <div class="service reveal delay-2">
+          <h4>Pain Abdominal(Stomach Pain)</h4>
+        </div>
+        <div class="service reveal">
+          <h4>Gallbladder Surgery</h4>
+          <p>Laparoscopic Cholecystectomy</p>
+        </div>
+        <div class="service reveal delay-1">
+          <h4>Appendix Surgery</h4>
+          <p>Laparoscopic Appendicectomy</p>
+        </div>
+        <div class="service reveal delay-2">
+          <h4>Hernia Repair</h4>
+          <p>Inguinal / Umbilical / Ventral / Incisional</p>
+        </div>
+
+        <div class="service reveal">
+          <h4>Upper GI / Colonoscopy</h4>
+          <p>Endoscopic evaluation and diagnosis</p>
+        </div>
+        <div class="service reveal delay-1">
+          <h4>Thyroid Swelling</h4>
+          <p>Thyroid evaluation and surgery</p>
+        </div>
+        <div class="service reveal delay-2">
+          <h4>Breast Lump</h4>
+          <p>Evaluation and surgical management</p>
+        </div>
+
+        <div class="service reveal">
+          <h4>Fistula / Fissure</h4>
+          <p>Hemorrhoids/Proctology treatment</p>
+        </div>
+        <div class="service reveal delay-1">
+          <h4>Varicose Veins</h4>
+          <p>Vein care, cellulitis, infections</p>
+        </div>
+        <div class="service reveal delay-2">
+          <h4>Trauma Care</h4>
+          <p>ICD insertion, Laparotomy, Splenectomy</p>
+        </div>
+
+        <div class="service reveal">
+          <h4>Day Care Surgeries</h4>
+          <p>Lipoma, Sebaceous cyst, Suturing, Dressing</p>
+        </div>
+        <div class="service reveal delay-1">
+          <h4>Diagnostic Surgery</h4>
+          <p>Laparoscopy, biopsy procedures</p>
+        </div>
+        <div class="service reveal delay-2">
+          <h4>Other Procedures</h4>
+          <p>All general surgical treatments</p>
+        </div>
+        <div class="service reveal delay-2"><h4>Dressing</h4></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-title">
+        <h2 class="reveal">Gallery</h2>
+        <p class="reveal delay-1">
+          Explore Our Surgical Equipment & Facilities
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- <div class="gallery-item reveal" onclick="openLightbox('images/g1.jpg')">
       <img src="images/g1.jpeg" alt="Gallery">
       <div class="overlay">🔍 View</div>
     </div> -->
-      <div class="gallery-item reveal" onclick="openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g5.jpeg')">
-      <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g5.jpeg" alt="Surgical equipment and facilities" width="400" height="300" loading="lazy">
-      <div class="overlay">🔍 View</div>
-    </div>
-    
-     <div class="gallery-item reveal" onclick="openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g2.jpeg')">
-       <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g2.jpeg" alt="Medical facilities" width="400" height="300" loading="lazy">
-       <div class="overlay">🔍 View</div>
-     </div>
-
-     
-     <div class="gallery-item reveal" onclick="openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g6.jpeg')">
-       <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g6.jpeg" alt="Clinic interior" width="400" height="300" loading="lazy">
-       <div class="overlay">🔍 View</div>
-     </div>
-
-     <div class="gallery-item reveal" onclick="openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g1.jpeg')">
-      <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g1.jpeg" alt="Medical equipment" width="400" height="300" loading="lazy">
-      <div class="overlay">🔍 View</div>
-    </div>
-
-    <div class="gallery-item reveal" onclick="openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g4.jpeg')">
-      <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g4.jpeg" alt="Surgery tools" width="400" height="300" loading="lazy">
-      <div class="overlay">🔍 View</div>
-    </div>
-
-     <div class="gallery-item reveal" onclick="openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g3.jpeg')">
-       <img src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g3.jpeg" alt="Clinic facilities" width="400" height="300" loading="lazy">
-       <div class="overlay">🔍 View</div>
-     </div>
-     
-  </div>
-</section>
-
-<!-- Testimonials Section -->
-<section class="section alt" id="testimonials">
-  <div class="section-title">
-    <h2>Patient Testimonials</h2>
-    <p>What our patients say about Prashant Clinic</p>
-  </div>
-
-  <div class="testimonials-grid">
-
-    <div class="testimonial-card">
-      <p>
-        “Finger surgery was done smoothly and recovery was quick.
-        Doctor explained everything clearly and staff was very supportive.”
-      </p>
-      <h4>Shivu Jadhav</h4>
-      <span>Solapur • Finger Surgery</span>
-    </div>
-
-    <div class="testimonial-card">
-      <p>
-        “Excellent surgical care and guidance.
-        Doctor is approachable and very professional.”
-      </p>
-      <h4>Mallanagouda Biradar</h4>
-      <span>General Surgery</span>
-    </div>
-
-    <div class="testimonial-card">
-      <p>
-        “Very clean clinic and professional treatment.
-        Surgery and follow-up were handled very well.”
-      </p>
-      <h4>Mohd Ali</h4>
-      <span>Laparoscopic Procedure</span>
-    </div>
-
-    <div class="testimonial-card">
-      <p>
-        “Treatment was well planned and recovery was comfortable.
-        I am thankful to Dr. Prashant.”
-      </p>
-      <h4>Basappa</h4>
-      <span>General Surgical Care</span>
-    </div>
-
-    <div class="testimonial-card">
-      <p>
-        “Finger surgery was successful with minimal pain and fast healing.
-        Very satisfied with the care.”
-      </p>
-      <h4>Patient</h4>
-      <span>Finger Surgery</span>
-    </div>
-
-  </div>
-</section>
-
-
-  <!-- Appointment -->
-<section class="section alt appointment-section" id="appointment">
-    <div class="section-title">
-      <h2 class="reveal">Book Appointment</h2>
-      <p class="reveal delay-1">Fill the form, we will contact you</p>
-    </div>
-
-    <div class="form-card reveal">
-      <form onsubmit="sendWhatsApp(event)">
-        <div class="form-row">
-          <div class="input">
-            <label>Full Name</label>
-            <input type="text" id="name" required placeholder="Enter patient name">
-          </div>
-          <div class="input">
-            <label>Phone Number</label>
-            <input type="tel" id="phone" required placeholder="Enter mobile number">
-          </div>
+        <div
+          class="gallery-item reveal"
+          onclick="
+            openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g5.jpeg')
+          "
+        >
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g5.jpeg"
+            alt="Surgical equipment and facilities"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+          <div class="overlay">🔍 View</div>
         </div>
 
-        <div class="form-row">
-          <div class="input">
-            <label>Problem / Service</label>
-            <select id="service" required>
-              <option value="">Select Service</option>
-              <option>Gallbladder Surgery</option>
-              <option>Appendix Surgery</option>
-              <option>Hernia Repair</option>
-              <option>Thyroid Swelling</option>
-              <option>Fistula / Fissure / Hemorrhoids</option>
-              <option>Varicose Veins</option>
-              <option>Trauma Care</option>
-              <option>Other</option>
-            </select>
-          </div>
-
-          <div class="input">
-            <label>Preferred Date</label>
-            <input type="date" id="date" required>
-          </div>
+        <div
+          class="gallery-item reveal"
+          onclick="
+            openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g2.jpeg')
+          "
+        >
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g2.jpeg"
+            alt="Medical facilities"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+          <div class="overlay">🔍 View</div>
         </div>
 
-        <div class="input">
-          <label>Message</label>
-          <textarea id="msg" rows="4" placeholder="Enter symptoms/details"></textarea>
+        <div
+          class="gallery-item reveal"
+          onclick="
+            openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g6.jpeg')
+          "
+        >
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g6.jpeg"
+            alt="Clinic interior"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+          <div class="overlay">🔍 View</div>
         </div>
 
-        <button type="submit" class="btn primary full">Send on WhatsApp</button>
-      </form>
-    </div>
-  </section>
+        <div
+          class="gallery-item reveal"
+          onclick="
+            openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g1.jpeg')
+          "
+        >
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g1.jpeg"
+            alt="Medical equipment"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+          <div class="overlay">🔍 View</div>
+        </div>
 
-  <!-- Contact -->
-<section class="section contact-section" id="contact">
+        <div
+          class="gallery-item reveal"
+          onclick="
+            openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g4.jpeg')
+          "
+        >
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g4.jpeg"
+            alt="Surgery tools"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+          <div class="overlay">🔍 View</div>
+        </div>
 
-    <div class="section-title">
-      <h2 class="reveal">Contact</h2>
-      <p class="reveal delay-1">Visit us at Jalanagar, Vijayapur</p>
-    </div>
-
-    <div class="contact-grid reveal">
-      <div class="contact-card">
-        <h3>Prashant Clinic</h3>
-        <p><b>📍 Address:</b><br>
-          Beside Buddha Vihar, Sai Baba Temple Road,<br>
-          Jalanagar, Vijayapur - 586109
-        </p>
-        <p><b>📞 Phone:</b> <a href="tel:8310091561">8310091561</a></p>
-        <p><b>✉ Email:</b> <a href="mailto:jd132prashant@gmail.com">jd132prashant@gmail.com</a></p>
-        <p><b>Instagram:</b> prashant_clinic_jalanagar</p>
-
-        <div class="small-buttons">
-          <a class="mini-btn" href="tel:8310091561">📞 Call</a>
-          <a class="mini-btn" target="_blank" href="https://wa.me/918310091561">💬 WhatsApp</a>
+        <div
+          class="gallery-item reveal"
+          onclick="
+            openLightbox('https://ik.imagekit.io/YOUR_IMAGEKIT_ID/g3.jpeg')
+          "
+        >
+          <img
+            src="https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-400,h-300,fo-auto/g3.jpeg"
+            alt="Clinic facilities"
+            width="400"
+            height="300"
+            loading="lazy"
+          />
+          <div class="overlay">🔍 View</div>
         </div>
       </div>
+    </section>
 
-      <iframe
-        class="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.3478969289345!2d75.7177071749338!3d16.80908858398277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc655878099eb45%3A0x126daa05a01c349c!2sPrashant%20Clinic!5e0!3m2!1sen!2sin!4v1769708625552!5m2!1sen!2sin"
-        allowfullscreen=""
-        loading="lazy">
-      </iframe>
+    <!-- Testimonials Section -->
+    <section class="section alt" id="testimonials">
+      <div class="section-title">
+        <h2>Patient Testimonials</h2>
+        <p>What our patients say about Prashant Clinic</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>
+            “Finger surgery was done smoothly and recovery was quick. Doctor
+            explained everything clearly and staff was very supportive.”
+          </p>
+          <h4>Shivu Jadhav</h4>
+          <span>Solapur • Finger Surgery</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            “Excellent surgical care and guidance. Doctor is approachable and
+            very professional.”
+          </p>
+          <h4>Mallanagouda Biradar</h4>
+          <span>General Surgery</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            “Very clean clinic and professional treatment. Surgery and follow-up
+            were handled very well.”
+          </p>
+          <h4>Mohd Ali</h4>
+          <span>Laparoscopic Procedure</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            “Treatment was well planned and recovery was comfortable. I am
+            thankful to Dr. Prashant.”
+          </p>
+          <h4>Basappa</h4>
+          <span>General Surgical Care</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>
+            “Finger surgery was successful with minimal pain and fast healing.
+            Very satisfied with the care.”
+          </p>
+          <h4>Patient</h4>
+          <span>Finger Surgery</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment -->
+    <section class="section alt appointment-section" id="appointment">
+      <div class="section-title">
+        <h2 class="reveal">Book Appointment</h2>
+        <p class="reveal delay-1">Fill the form, we will contact you</p>
+      </div>
+
+      <div class="form-card reveal">
+        <form onsubmit="sendWhatsApp(event)">
+          <div class="form-row">
+            <div class="input">
+              <label>Full Name</label>
+              <input
+                type="text"
+                id="name"
+                required
+                placeholder="Enter patient name"
+              />
+            </div>
+            <div class="input">
+              <label>Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                required
+                placeholder="Enter mobile number"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input">
+              <label>Problem / Service</label>
+              <select id="service" required>
+                <option value="">Select Service</option>
+                <option>Gallbladder Surgery</option>
+                <option>Appendix Surgery</option>
+                <option>Hernia Repair</option>
+                <option>Thyroid Swelling</option>
+                <option>Fistula / Fissure / Hemorrhoids</option>
+                <option>Varicose Veins</option>
+                <option>Trauma Care</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="input">
+              <label>Preferred Date</label>
+              <input type="date" id="date" required />
+            </div>
+          </div>
+
+          <div class="input">
+            <label>Message</label>
+            <textarea
+              id="msg"
+              rows="4"
+              placeholder="Enter symptoms/details"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn primary full">
+            Send on WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="section-title">
+        <h2 class="reveal">Contact</h2>
+        <p class="reveal delay-1">Visit us at Jalanagar, Vijayapur</p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <div class="contact-card">
+          <h3>Prashant Clinic</h3>
+          <p>
+            <b>📍 Address:</b><br />
+            Beside Buddha Vihar, Sai Baba Temple Road,<br />
+            Jalanagar, Vijayapur - 586109
+          </p>
+          <p><b>📞 Phone:</b> <a href="tel:8310091561">8310091561</a></p>
+          <p>
+            <b>✉ Email:</b>
+            <a href="mailto:jd132prashant@gmail.com">jd132prashant@gmail.com</a>
+          </p>
+          <p><b>Instagram:</b> prashant_clinic_jalanagar</p>
+
+          <div class="small-buttons">
+            <a class="mini-btn" href="tel:8310091561">📞 Call</a>
+            <a
+              class="mini-btn"
+              target="_blank"
+              href="https://wa.me/918310091561"
+              >💬 WhatsApp</a
+            >
+          </div>
+        </div>
+
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.3478969289345!2d75.7177071749338!3d16.80908858398277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc655878099eb45%3A0x126daa05a01c349c!2sPrashant%20Clinic!5e0!3m2!1sen!2sin!4v1769708625552!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2026 Prashant Clinic. All Rights Reserved.</p>
+      <small>Designed by Neuronix Technologies, Vijayapur</small>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <a class="floating call" href="tel:8310091561">📞</a>
+    <a class="floating wa" href="https://wa.me/918310091561" target="_blank"
+      >💬</a
+    >
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+      <img id="lightbox-img" alt="Preview" />
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2026 Prashant Clinic. All Rights Reserved.</p>
-       <small>Designed by Neuronix Technologies, Vijayapur</small>
-  </footer>
-
-  <!-- Floating Buttons -->
-  <a class="floating call" href="tel:8310091561">📞</a>
-  <a class="floating wa" href="https://wa.me/918310091561" target="_blank">💬</a>
-
-  <!-- Lightbox -->
-  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img" alt="Preview">
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
