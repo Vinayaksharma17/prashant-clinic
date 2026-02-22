@@ -9,13 +9,13 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-192,h-192/logo_square_256.png",
+      "src": "https://ik.imagekit.io/nruronixtech/tr:w-192,h-192/prashant-clinic-assets/images/logo_square_256.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-512,h-512/logo_square_256.png",
+      "src": "https://ik.imagekit.io/nruronixtech/tr:w-512,h-512/prashant-clinic-assets/images/logo_square_256.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
