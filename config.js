@@ -1,10 +1,10 @@
 // Configuration file for Prashant Clinic website
-// Replace YOUR_IMAGEKIT_ID with your actual ImageKit.io ID
+// Replace nruronixtech/prashant-clinic-assets/images with your actual ImageKit.io ID
 
 const CONFIG = {
   // ImageKit.io Configuration
   imagekit: {
-    urlEndpoint: 'https://ik.imagekit.io/YOUR_IMAGEKIT_ID',
+    urlEndpoint: 'https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images',
     // Add your public key here if you need upload functionality
     // publicKey: 'your_public_key_optional'
   },
