@@ -71,7 +71,7 @@
        /* BG IMAGE - Using ImageKit.io */
        background-image:
          linear-gradient(to bottom, rgba(6,25,40,0.75), rgba(6,25,40,0.82)),
-         url("https://ik.imagekit.io/YOUR_IMAGEKIT_ID/tr:w-1920,h-1080,q-80/hero-bg.jpg");
+         url("https://ik.imagekit.io/nruronixtech/tr:w-1920,h-1080,q-80/prashant-clinic-assets/images/hero-bg.jpg");
      
        background-size: cover;
        background-position: center;
