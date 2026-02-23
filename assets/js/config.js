@@ -38,7 +38,7 @@ const CONFIG = {
 
   // Website URL (Update before deployment)
   website: {
-    url: 'https://yourwebsite.com',
+    url: 'https://drprashantyadahalli.neuronixtech.cloud/',
     domain: 'yourwebsite.com'
   }
 };

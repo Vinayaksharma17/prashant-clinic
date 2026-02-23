@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://drprashantyadahalli.neuronixtech.cloud//sitemap.xml
 
 # Disallow admin/config files
 Disallow: /config.js
