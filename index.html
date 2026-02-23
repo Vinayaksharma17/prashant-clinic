@@ -17,21 +17,58 @@
     <meta name="author" content="Prashant Clinic" />
     <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph Meta Tags -->
+    <!-- Open Graph Meta Tags (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:site_name" content="Prashant Clinic" />
     <meta
       property="og:title"
-      content="Prashant Clinic | Surgical & Laparoscopic Care"
+      content="Prashant Clinic | Expert Laparoscopic & General Surgery in Vijayapur"
     />
     <meta
       property="og:description"
-      content="Expert surgical care in Vijayapur. OPD consultation available for general surgical problems."
+      content="🏥 Expert surgical care by Dr. Prashant Yadahalli (DNB General Surgery) | Laparoscopic Surgery | General Surgery | Trauma Care | Book your appointment: +91 8310091561 | Jalanagar, Vijayapur"
     />
     <meta
       property="og:image"
-      content="https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/logo_square_256.png"
+      content="https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/doctor.jpeg"
     />
-    <meta property="og:url" content="https://yourwebsite.com" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Dr. Prashant Yadahalli - Prashant Clinic Vijayapur"
+    />
+    <meta
+      property="og:url"
+      content="https://drprashantyadahalli.neuronixtech.cloud/"
+    />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Prashant Clinic | Expert Surgical Care in Vijayapur"
+    />
+    <meta
+      name="twitter:description"
+      content="Expert Laparoscopic & General Surgery by Dr. Prashant Yadahalli. Book appointment: +91 8310091561"
+    />
+    <meta
+      name="twitter:image"
+      content="https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/doctor.jpeg"
+    />
+
+    <!-- WhatsApp Specific -->
+    <meta property="og:phone_number" content="+918310091561" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Beside Buddha Vihar, Sai Baba Temple Road, Jalanagar"
+    />
+    <meta property="business:contact_data:locality" content="Vijayapur" />
+    <meta property="business:contact_data:region" content="Karnataka" />
+    <meta property="business:contact_data:postal_code" content="586109" />
+    <meta property="business:contact_data:country_name" content="India" />
 
     <!-- Favicon -->
     <link
@@ -65,6 +102,85 @@
 
     <!-- Theme Color -->
     <meta name="theme-color" content="#0b3b5e" />
+
+    <!-- Structured Data (JSON-LD) for Rich Search Results -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalClinic",
+        "name": "Prashant Clinic",
+        "image": "https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/doctor.jpeg",
+        "description": "Expert Laparoscopic, General & Trauma Surgery care in Vijayapur by Dr. Prashant Yadahalli",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Beside Buddha Vihar, Sai Baba Temple Road, Jalanagar",
+          "addressLocality": "Vijayapur",
+          "addressRegion": "Karnataka",
+          "postalCode": "586109",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "16.809088",
+          "longitude": "75.717707"
+        },
+        "telephone": "+918310091561",
+        "email": "jd132prashant@gmail.com",
+        "url": "https://drprashantyadahalli.neuronixtech.cloud/",
+        "priceRange": "₹₹",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+          }
+        ],
+        "medicalSpecialty": [
+          "Surgery",
+          "Laparoscopic Surgery",
+          "General Surgery",
+          "Trauma Surgery"
+        ],
+        "hasMap": "https://www.google.com/maps/place/Prashant+Clinic",
+        "sameAs": ["https://instagram.com/prashant_clinic_jalanagar"]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Dr. Prashant Yadahalli",
+        "image": "https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/doctor.jpeg",
+        "jobTitle": "Consultant Surgeon",
+        "description": "MBBS, DNB (General Surgery), FMAS, FIAGES - Expert in Laparoscopic, General & Trauma Surgery",
+        "worksFor": {
+          "@type": "MedicalClinic",
+          "name": "Prashant Clinic"
+        },
+        "medicalSpecialty": [
+          "Laparoscopic Surgery",
+          "General Surgery",
+          "Trauma Surgery"
+        ],
+        "telephone": "+918310091561",
+        "email": "jd132prashant@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Vijayapur",
+          "addressRegion": "Karnataka",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
   </head>
 
   <body>
@@ -291,7 +407,11 @@
     </div> -->
         <div
           class="gallery-item reveal"
-          onclick="openLightbox('https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/g5.jpeg?updatedAt=1771849329839')"
+          onclick="
+            openLightbox(
+              'https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/g5.jpeg?updatedAt=1771849329839',
+            )
+          "
         >
           <img
             src="https://ik.imagekit.io/nruronixtech/prashant-clinic-assets/images/g5.jpeg?updatedAt=1771849329839"
